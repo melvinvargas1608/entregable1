@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css'
+import './components/styles/QuoteBox.css'
 import QuoteBox from './components/QuoteBox';
 import quotes from "./db/quotes.json";
 import { getRandomElement } from './utils/random';
