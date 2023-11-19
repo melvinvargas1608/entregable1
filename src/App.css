@@ -13,23 +13,34 @@
 /*background image*/
 .bg1{
     background-image: url(/image/universe1.webp);
-
+    z-index: 1;
 }
 
 .bg2{
     background-image: url(/image/universe2.webp);
+    z-index: 1;
 }
 
 .bg3{
     background-image: url(/image/universe3.webp);
+    z-index: 1;
 }
 
 .bg4{
     background-image: url(/image/universe4.webp);
+    z-index: 1;
 }
 
 img{
     position: absolute;
     bottom: 0px;
-    height: 200px;
+    height: 250px;
+    z-index: 2;
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+    img{
+        height: 350px;
+    }
 }

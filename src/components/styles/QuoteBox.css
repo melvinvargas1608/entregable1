@@ -1,12 +1,13 @@
 .quotebox{
     max-width: 400px;
     display: grid;
-    gap: 70px;
+    gap: 30px;
     justify-items: center;
 }
 
 .quotebox__title{
-    font-size: 28px;
+    font-size: 26px;
+    z-index: 3;
 }
 
 .quotebox__phrase{
@@ -14,7 +15,8 @@
     padding: 25px;
     border-radius: 10px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
+    z-index: 3;
 }
 
 .quotebox__author{
@@ -22,8 +24,9 @@
     bottom: 15px;
     right: 50%;
     transform: translate(50%);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
+    z-index: 3;
 }
 
 .quotebox__btn{
@@ -33,9 +36,10 @@
     background-color: rgba(0, 150, 251, .6);
     color: white;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     font-family: 'DS-Digital', sans-serif;
+    z-index: 3;
     cursor: pointer;
 }
 
@@ -43,5 +47,35 @@
     position: absolute;
     bottom: 15px;
     left: 15px;
-    font-size: 12px;
+    font-size: 10px;
+    z-index: 3;
 }
+
+/* Desktops */
+@media (min-width: 1024px) {
+    .quotebox{
+        max-width: 600px;
+        display: grid;
+        gap: 50px;
+    }
+
+    .quotebox__title{
+        font-size: 30px;
+    }
+  
+    .quotebox__phrase{
+        font-size: 24px;
+    }
+
+    .quotebox__author{
+        font-size: 24px;
+    }
+
+    .quotebox__btn{
+        font-size: 18px;
+    }
+
+    .quotebox__by{
+        font-size: 14px;
+    }
+  }
