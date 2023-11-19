@@ -10,6 +10,7 @@
     font-family: 'DS-Digital', sans-serif;
 }
 
+/*background image*/
 .bg1{
     background-image: url(/image/universe1.webp);
 
@@ -25,4 +26,10 @@
 
 .bg4{
     background-image: url(/image/universe4.webp);
+}
+
+img{
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
 }

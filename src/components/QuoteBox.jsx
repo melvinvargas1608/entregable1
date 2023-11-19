@@ -12,6 +12,7 @@ const QuoteBox = ({ quote, handleChangeQuote }) => {
         <button className="quotebox__btn" onClick={handleChangeQuote}>Change</button>
         <span className="quotebox__author">{author}</span>
         <span className="quotebox__by"> By Melvin Vargas</span>
+        <image src="/entregable1/public/image/planet1.svg" />
       </article>
   )
 }
